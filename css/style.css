@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.container{
+	width: 1140px;
+	background-color: #3b3c36;
+	margin: auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu-item li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 16px;
+	margin-left: 16px;
+	margin-top: 38px;
+}
+.menu-item li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+.h-btn button{
+	cursor: pointer;
+	background-color: maroon;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 25px;
+	border: none;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+.h-btn button:hover{
+	background-color: black;
+}
+.navbar img{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+.banner{
+	width: 100%;
+	background-color: white;
+}
+.b-content{
+	display: flex;
+	background-color: white;
+	margin-top: 10px;	
+}
+.b-left{
+	padding-top: 100px;
+	flex-basis: 40%;
+}
+.b-right{
+	flex-basis: 60%;
+}
+.b-left h1{
+	font-size: 45px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.b-right img{
+	width: 100%;
+}
+.b-left p{
+	font-size: 18px;
+	font-weight: 300;
+}
+.banner-btn{
+	background-color: maroon;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 25px;
+	border: none;
+	margin-top: 30px;
+	margin-right: 10px;
+	border-radius: 4px;
+}
+.banner-btn:hover{
+	background-color: black;
+	cursor: pointer;
+}
+.stat-container{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	background-color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.item button{
+	background-color: maroon;
+	color: white;
+}
+.item button:hover{
+	background-color: black;
+}
+.item2 button{
+	background-color: maroon;
+	color: white;
+}
+.item2 button:hover{
+	background-color: black;
+}.item3 button{
+	background-color: maroon;
+	color: white;
+}
+.item3 button:hover{
+	background-color: black;
+}
